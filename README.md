@@ -3,7 +3,11 @@ ESLint Config for JavaScript used by BlackBird Team
 
 ## Install
 ```cmd
-install i -D https://github.com/blackbird-team/eslint-config-bbt.git
+npm install --save-dev eslint eslint-config-bbt
+```
+
+```cmd
+npm i -D eslint-config-bbt
 ```
 
 ## Usage
@@ -11,6 +15,7 @@ install i -D https://github.com/blackbird-team/eslint-config-bbt.git
 {
 	...
 	"extends": [ "bbt" ]
+	...
 }
 ```
 
