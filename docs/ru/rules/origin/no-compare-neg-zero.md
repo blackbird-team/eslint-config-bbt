@@ -1,7 +1,7 @@
 ## [no-compare-neg-zero](https://eslint.org/docs/rules/no-compare-neg-zero)
 
 Используется в конфигурации:
-```ecmascript 6
+```json
 { "no-compare-neg-zero": 1 }
 ```
 
@@ -12,7 +12,7 @@
 ### Examples
 
 Пример __неправильного__ кода для этого правила:
-```ecmascript 6
+```js
 if (x === -0) {
     // doSomething()...
 }
@@ -21,12 +21,12 @@ if (x === -0) {
 ---
 
 Пример __правильного__ кода для этого правила:
-```ecmascript 6
+```js
 if (x === 0) {
     // doSomething()...
 }
 ```
-```ecmascript 6
+```js
 if (Object.is(x, -0)) {
     // doSomething()...
 }
@@ -43,6 +43,6 @@ if (Object.is(x, -0)) {
 ### Extends
 
 [eslint:recommended](https://github.com/eslint/eslint/blob/master/conf/eslint-recommended.js)
-```ecmascript 6
+```json
 { "no-compare-neg-zero": "error" }
 ```

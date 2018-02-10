@@ -1,7 +1,7 @@
 ## [no-cond-assign](https://eslint.org/docs/rules/no-cond-assign)
 
 Используется в конфигурации:
-```ecmascript 6
+```json
 { "no-cond-assign": 2 }
 ```
 Запрещает оператор присваивания в условных выражениях ```if```, ```for```, ```while``` и ```do...while```
@@ -11,14 +11,14 @@
 ### Examples
 
 Пример __неправильного__ кода для этого правила:
-```ecmascript 6
+```js
 // Unintentional assignment
 let x;
 if (x = 0) {
     let b = 1;
 }
 ```
-```ecmascript 6
+```js
 // Practical example that is similar to an error
 function setHeight(someNode) {
     "use strict";
@@ -31,14 +31,14 @@ function setHeight(someNode) {
 ---
 
 Пример __правильного__ кода для этого правила:
-```ecmascript 6
+```js
 // Assignment replaced by comparison
 let x;
 if (x === 0) {
     let b = 1;
 }
 ```
-```ecmascript 6
+```js
 // Practical example that wraps the assignment in parentheses
 function setHeight(someNode) {
     "use strict";
@@ -47,7 +47,7 @@ function setHeight(someNode) {
     } while ((someNode = someNode.parentNode));
 }
 ```
-```ecmascript 6
+```js
 // Practical example that wraps the assignment and tests for 'null'
 function setHeight(someNode) {
     "use strict";
@@ -75,6 +75,6 @@ function setHeight(someNode) {
 ### Extends
 
 [eslint:recommended](https://github.com/eslint/eslint/blob/master/conf/eslint-recommended.js)
-```ecmascript 6
+```json
 { "no-cond-assign": "error" }
 ```

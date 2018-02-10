@@ -1,7 +1,7 @@
 ## [getter-return](https://eslint.org/docs/rules/getter-return)
 
 Используется в конфигурации:
-```ecmascript 6
+```json
 { "getter-return": 2 }
 ```
 
@@ -12,7 +12,7 @@
 ### Examples
 
 Пример __неправильного__ кода для этого правила:
-```ecmascript 6
+```js
 class P{
     get name(){
         // no returns.
@@ -23,7 +23,7 @@ class P{
 ---
 
 Пример __правильного__ кода для этого правила:
-```ecmascript 6
+```js
 class P{
     get name(){
         return "nicholas";
@@ -42,5 +42,5 @@ class P{
 ### Extends
 
 [eslint:recommended](https://github.com/eslint/eslint/blob/master/conf/eslint-recommended.js)
-```ecmascript 6
+```json
 { "getter-return": "off" }
