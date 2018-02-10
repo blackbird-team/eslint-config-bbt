@@ -9,6 +9,8 @@
 
 ---
 
+### Examples
+
 Пример __неправильного__ кода для этого правила:
 ```ecmascript 6
 class P{
@@ -31,6 +33,14 @@ class P{
 
 ---
 
-__Версия ESLint__
+### Версия ESLint
 
 Правило было введено в ESLint 4.2.0.
+
+---
+
+### Extends
+
+[eslint:recommended](https://github.com/eslint/eslint/blob/master/conf/eslint-recommended.js)
+```ecmascript 6
+{ "getter-return": "off" }

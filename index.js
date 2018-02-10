@@ -5,6 +5,9 @@ module.exports = {
 		"sourceType": "module"
 	},
 	"rules": {
-		"getter-return": 2
+		"getter-return": 2,
+		"no-compare-neg-zero": 1,
+		"no-cond-assign": 2,
+		"no-console": 2
 	}
 };
