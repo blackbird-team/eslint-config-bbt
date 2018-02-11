@@ -8,6 +8,7 @@ module.exports = {
 		"getter-return": 2,
 		"no-compare-neg-zero": 1,
 		"no-cond-assign": 2,
-		"no-console": 2
+		"no-console": 2,
+		"no-constant-condition": 2
 	}
 };

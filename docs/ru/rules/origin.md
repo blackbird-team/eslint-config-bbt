@@ -11,3 +11,5 @@
 [no-cond-assign](/docs/ru/rules/origin/no-cond-assign.md) -- ```"error"```
 
 [no-console](/docs/ru/rules/origin/no-console.md) -- ```"error"```
+
+[no-constant-condition](/docs/ru/rules/origin/no-constant-condition.md) -- ```"error"```
