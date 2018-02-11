@@ -17,3 +17,5 @@
 [no-control-regex](/docs/ru/rules/origin/no-control-regex.md) -- ```"warn"```
 
 [no-debugger](/docs/ru/rules/origin/no-debugger.md) -- ```"error"```
+
+[no-dupe-args](/docs/ru/rules/origin/no-dupe-args.md) -- ```"error"```
