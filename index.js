@@ -10,6 +10,7 @@ module.exports = {
 		"no-cond-assign": 2,
 		"no-console": 2,
 		"no-constant-condition": 2,
-		"no-control-regex": 1
+		"no-control-regex": 1,
+		"no-debugger": 2
 	}
 };
