@@ -13,3 +13,5 @@
 [no-console](/docs/ru/rules/origin/no-console.md) -- ```"error"```
 
 [no-constant-condition](/docs/ru/rules/origin/no-constant-condition.md) -- ```"error"```
+
+[no-control-regex](/docs/ru/rules/origin/no-control-regex.md) -- ```"warn"```

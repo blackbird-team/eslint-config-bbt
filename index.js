@@ -9,6 +9,7 @@ module.exports = {
 		"no-compare-neg-zero": 1,
 		"no-cond-assign": 2,
 		"no-console": 2,
-		"no-constant-condition": 2
+		"no-constant-condition": 2,
+		"no-control-regex": 1
 	}
 };
