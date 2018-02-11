@@ -12,6 +12,7 @@ module.exports = {
 		"no-constant-condition": 2,
 		"no-control-regex": 1,
 		"no-debugger": 2,
-		"no-dupe-args": 2
+		"no-dupe-args": 2,
+		"no-dupe-keys": 2
 	}
 };

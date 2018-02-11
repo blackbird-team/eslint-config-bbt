@@ -19,3 +19,5 @@
 [no-debugger](/docs/ru/rules/origin/no-debugger.md) -- ```"error"```
 
 [no-dupe-args](/docs/ru/rules/origin/no-dupe-args.md) -- ```"error"```
+
+[no-dupe-keys](/docs/ru/rules/origin/no-dupe-keys.md) -- ```"error"```
