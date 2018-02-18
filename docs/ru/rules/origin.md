@@ -26,4 +26,6 @@
 
 [no-empty](/docs/ru/rules/origin/no-empty.md) -- ```"error"``` -- Запрещает пустые блоки кода
 
+[no-empty-character-class](/docs/ru/rules/origin/no-empty-character-class.md) -- ```"error"``` -- Запрещает пустые символьные классы в регулярных выражениях
+
 [no-ex-assign](/docs/ru/rules/origin/no-ex-assign.md) -- ```"error"``` -- Запрещает переназначение аргумента ```catch```

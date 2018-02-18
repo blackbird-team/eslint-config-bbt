@@ -16,6 +16,7 @@ module.exports = {
 		"no-dupe-keys": 2,
 		"no-duplicate-case": 2,
 		"no-empty": 2,
+		"no-empty-character-class": 2,
 		"no-ex-assign": 2
 	}
 };
