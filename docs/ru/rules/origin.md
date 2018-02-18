@@ -21,3 +21,5 @@
 [no-dupe-args](/docs/ru/rules/origin/no-dupe-args.md) -- ```"error"``` -- Запрещает дублирование имен для аргументов.
 
 [no-dupe-keys](/docs/ru/rules/origin/no-dupe-keys.md) -- ```"error"``` -- Запрещает дублирование имен для свойств объектов.
+
+[no-duplicate-case](/docs/ru/rules/origin/no-duplicate-case.md) -- ```"error"``` -- Запрещает дублирование выражений ```case``` внутри ```switch``` 
