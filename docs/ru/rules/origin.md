@@ -35,3 +35,5 @@
 [no-extra-parens](/docs/ru/rules/origin/no-extra-parens.md) -- ```[ "warn", "all", { "nestedBinaryExpressions": false } ]``` -- Ограничивает использование круглых скобок, кроме тех мест, где они необходимы
 
 [no-extra-semi](/docs/ru/rules/origin/no-extra-semi.md) -- ```"error"``` -- Запрещает необязательные точки с запятой
+
+[no-func-assign](https://eslint.org/docs/rules/no-func-assign) -- Отключено. Запрещает переназначение переменных Function Declaration. Всегда используем Function Expression
