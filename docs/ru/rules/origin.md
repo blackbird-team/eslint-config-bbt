@@ -31,3 +31,5 @@
 [no-ex-assign](/docs/ru/rules/origin/no-ex-assign.md) -- ```"error"``` -- Запрещает переназначение аргумента ```catch```
 
 [no-extra-boolean-cast](/docs/ru/rules/origin/no-extra-boolean-cast.md) -- ```"error"``` -- Запрещает лишние логические операторы ```!```
+
+[no-extra-parens](/docs/ru/rules/origin/no-extra-parens.md) -- ```[ "warn", "all", { "nestedBinaryExpressions": false } ]``` -- Ограничивает использование круглых скобок, кроме тех мест, где они необходимы
