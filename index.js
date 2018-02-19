@@ -21,6 +21,7 @@ module.exports = {
 		"no-extra-boolean-cast": 2,
 		"no-extra-boolean-cast": [1, "all", {
 			"nestedBinaryExpressions": false
-		}]
+		}],
+		"no-extra-semi": 2
 	}
 };
