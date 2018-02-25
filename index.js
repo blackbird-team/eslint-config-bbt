@@ -25,6 +25,11 @@ module.exports = {
 		"no-extra-semi": 2,
 		"no-irregular-whitespace": 2,
 		"no-obj-calls": 2,
-		"no-prototype-builtins": 2
+		"no-prototype-builtins": 2,
+		"no-regex-spaces": 2,
+		"no-sparse-arrays": 2,
+		"no-template-curly-in-string": 2,
+		"no-unexpected-multiline": 2,
+		"no-unreachable": 2
 	}
 };

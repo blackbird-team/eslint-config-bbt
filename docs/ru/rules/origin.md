@@ -47,3 +47,13 @@
 [no-obj-calls](/docs/ru/rules/origin/no-obj-calls.md) -- ```"error"``` -- Запрещает вызово объектов ```Math```, ```JSON``` и ```Reflect``` в качестве функций
 
 [no-prototype-builtins](/docs/ru/rules/origin/no-prototype-builtins.md) -- ```"error"``` -- Запрещает вызов некоторых ```Object.prototype``` методов непосредственно на экземплярах объектов
+
+[no-regex-spaces](/docs/ru/rules/origin/no-regex-spaces.md) -- ```"error"``` -- Запрещает множественные пробелы в литералах регулярных выражений.
+
+[no-sparse-arrays](/docs/ru/rules/origin/no-sparse-arrays.md) -- ```"error"``` -- Запрещает sparse arrays
+
+[no-template-curly-in-string](/docs/ru/rules/origin/no-template-curly-in-string.md) -- ```"error"``` -- Предупреждает об использовании синтаксиса шаблонных строк, заключенные в отличимые от обратных кавычки
+
+[no-unexpected-multiline](/docs/ru/rules/origin/no-unexpected-multiline.md) -- ```"error"``` -- Запрещает запутывание многострочных выражений, в которых новая строка выглядит так, как будто она завершает оператор, но это не так.
+
+[no-unreachable](/docs/ru/rules/origin/no-unreachable.md) -- ```"error"``` -- Запрещает код после ```return```, ```throw```, ```continue```, and ```break```, которіе будет проигнорирован интерпретатором 
