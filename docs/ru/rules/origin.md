@@ -37,3 +37,13 @@
 [no-extra-semi](/docs/ru/rules/origin/no-extra-semi.md) -- ```"error"``` -- Запрещает необязательные точки с запятой
 
 [no-func-assign](https://eslint.org/docs/rules/no-func-assign) -- Отключено. Запрещает переназначение переменных Function Declaration. Всегда используем Function Expression
+
+[no-inner-declarations](https://eslint.org/docs/rules/no-inner-declarations) -- Отключено. Запрещает объявление функций и переменных во вложенных блоках. Устарело для ES6 
+
+[no-invalid-regexp](https://eslint.org/docs/rules/no-invalid-regexp) -- Отключено. _Рассмотрение правил для ```RegEx``` отложено_
+
+[no-irregular-whitespace](/docs/ru/rules/origin/.md) -- ```"error"``` -- Запрещает недопустимые символы пробелов
+
+[no-obj-calls](/docs/ru/rules/origin/no-obj-calls.md) -- ```"error"``` -- Запрещает вызово объектов ```Math```, ```JSON``` и ```Reflect``` в качестве функций
+
+[no-prototype-builtins](/docs/ru/rules/origin/no-prototype-builtins.md) -- ```"error"``` -- Запрещает вызов некоторых ```Object.prototype``` методов непосредственно на экземплярах объектов

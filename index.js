@@ -22,6 +22,9 @@ module.exports = {
 		"no-extra-boolean-cast": [1, "all", {
 			"nestedBinaryExpressions": false
 		}],
-		"no-extra-semi": 2
+		"no-extra-semi": 2,
+		"no-irregular-whitespace": 2,
+		"no-obj-calls": 2,
+		"no-prototype-builtins": 2
 	}
 };
